@@ -1,0 +1,7 @@
+data/raw/reviews.csv
+data/raw/*.csv
+data/models/*.pkl
+data/raw/listings.csv
+data/raw/calendar.csv.gz
+data/processed/merged_data.csv
+data/models/*.csv
