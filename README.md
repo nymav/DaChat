@@ -21,7 +21,7 @@ A Streamlit app that lets you chat with your CSV data and get AI-powered price p
    - Load a chat model (e.g., Mistral-7B-Instruct)
    - Start server on `localhost:1234`
 
-3. **Configure paths** in the script:
+3. **Configure paths** in `test-lm.py`:
    ```python
    CSV_FILE_PATH = "data/processed/merged_data.csv"
    ML_MODEL_PATH = "data/models/price_model.pkl"
@@ -29,7 +29,7 @@ A Streamlit app that lets you chat with your CSV data and get AI-powered price p
 
 4. **Run the app**:
    ```bash
-   streamlit run app.py
+   streamlit run test-lm.py
    ```
 
 ## Usage
@@ -42,6 +42,8 @@ A Streamlit app that lets you chat with your CSV data and get AI-powered price p
 **Get ML predictions**:
 - Use the sidebar predictor with property features
 - Ask "What features affect price most?"
+
+The CSV and trained model are not included in this repository. Supply your own files and replace the existing machine-specific model path before running.
 
 ## Requirements
 
